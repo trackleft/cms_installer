@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "trackleft/cms": "^dev-main",
+        "trackleft/cms": "dev-main",
         "drupal/config_devel": "^1.10"
     }
 }
