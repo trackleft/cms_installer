@@ -7,7 +7,7 @@
     "repositories": {
         "trackleft/cms": {
             "type": "vcs",
-            "url": "https://github.com/trackleft/cms.git"
+            "url": "git@github.com:trackleft/cms"
         }
     },
     "authors": [
