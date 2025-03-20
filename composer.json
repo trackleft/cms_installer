@@ -1,0 +1,23 @@
+{
+    "name": "trackleft/cms_installer",
+    "description": "A recipe to convert drupal CMS into an install profile with shared configuration management.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "repositories": {
+        "trackleft/cms": {
+            "type": "vcs",
+            "url": "https://github.com/trackleft/cms.git"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Green",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "trackleft/cms": "^dev-main",
+        "drupal/config_devel": "^1.10"
+    }
+}

@@ -1,0 +1,12 @@
+name: 'Drupal CMS to Install Profile.'
+description: 'This is a profile to install a Drupal CMS.'
+type: 'Shared Configuration Management'
+
+install:
+  - config_sync
+  - config_devel
+
+config:
+  actions:
+    core.extensions:
+      profile: cms
