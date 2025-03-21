@@ -11,3 +11,4 @@ config:
     core.extension:
       simple_config_update:
         profile: cms
+        module: cms
