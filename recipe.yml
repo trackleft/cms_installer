@@ -8,5 +8,6 @@ install:
 
 config:
   actions:
-    core.extensions:
-      profile: cms
+    core.extension:
+      simple_config_update:
+        profile: cms
