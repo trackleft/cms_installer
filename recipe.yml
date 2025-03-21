@@ -10,5 +10,5 @@ config:
   actions:
     core.extension:
       simple_config_update:
+        module.cms: 1000
         profile: cms
-        module: cms
